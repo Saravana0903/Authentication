@@ -1,0 +1,60 @@
+/* Write your CSS code here */
+
+.login-con {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.login-img {
+  display: flex;
+  flex-direction: column;
+  margin-right: 40px;
+}
+.login-icon {
+  width: 600px;
+}
+.logo-icon {
+  height: 75px;
+  width: 150px;
+}
+.form-con {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  box-shadow: 0px 4px 16px 0px #bfbfbf;
+  border-radius: 10px;
+  padding: 15px;
+  width: 400px;
+}
+.val-con {
+  display: flex;
+  flex-direction: column;
+  margin-top: 15px;
+}
+.label-ele {
+  color: cadetblue;
+  font-size: 18px;
+  font-family: 'Roboto';
+}
+.inp-ele {
+  border: 1px;
+  border-radius: 10px;
+  background-color: lightgray;
+  height: 38px;
+  padding: 10px;
+  outline: none;
+  width: 150px;
+}
+.login-btn {
+  margin-top: 10px;
+  color: white;
+  height: 38px;
+  width: 100px;
+  text-align: center;
+  padding: 10px;
+  border-radius: 10px;
+  border: 0px;
+  background-color: rgb(26, 108, 216);
+}

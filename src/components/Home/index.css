@@ -1,0 +1,37 @@
+/* Write your CSS code here */
+.home-con {
+  display: flex;
+  flex-direction: column;
+}
+.main-con {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.matter-con {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-right: 20px;
+}
+.main-head {
+  color: #323f4b;
+  font-family: 'Roboto';
+  font-size: 36px;
+}
+.main-des {
+  font-family: 'Roboto';
+  font-size: 24px;
+}
+.img-con {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.home-icon {
+  width: 300px;
+}
+.img-con {
+  margin-left: 15px;
+}
